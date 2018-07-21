@@ -1,7 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<title>exo-flicker</title>
+<head/>
+<style>
+  body { 
+background-repeat: ;
+background-size: 50px 50px;
+background: rgba(220, 220, 225, 0.3);
+}
+  
+#container {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: white;
+}
+#container2 {
+  width: 500px;
+  height: 300px;
+  position: auto; 
+  background-color: white;
+  opacity: 0.3;
+  margin-left: 400px;
+}
+#animate {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: white;
+}
+#box {
+  width: 200px;
+  height: 50px;
+  margin-left: 180px;
+}
+</style>
+
 <body>
-<h1>Hello.</h1>
-<p>Here.</p>
+<div id ="container2">
+  <img src ="images/smile.svg"/> 
+  <div id="box">
+<p>For Tony Conrad</p></div>
+</div>
+<script>
+var blink_speed = 16.667; // every 1000 == 1 second
+
+var t = setInterval(function () {
+    var ele = document.getElementById('container2');
+    ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+}, blink_speed);
+
+</script>
 </body>
 </html>
