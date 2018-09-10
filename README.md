@@ -1,4 +1,3 @@
 # evieyv.github.io
 
-This page is a dedication to my former teacher, Tony Conrad. It is hyperlinked in the introduction text of my dissertation. 
-(currently work in progress. Updates soon)
+This page is a flicker at the threshold of the monitor refresh rate. The internet is a tyranny of human perceptual thresholds. 
